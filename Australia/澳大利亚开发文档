@@ -1,0 +1,25 @@
+澳大利亚（selenium + requests）版本：
+	查询表：
+		dc_business_australia_info_eng（个人信息英文表）
+		dc_business_australia_info（个人信息中文表）
+		dc_business_australia_order（公共表）
+		dc_business_visa_account（旅行社进本信息表表）
+
+	aust_run.py: 运行主程序文件（运行inter_112.py）模块
+	aust_visa_run：运行查询出签状况模块（每天22:00查询一次）
+	config.ini: 数据库的基本信息
+	config.py: 配置文件的基本信息和各种日志的创建模块
+	fateadm.py: 对接打码平台模块
+	huilian_file_tools.py: 下载文件和获取文件路径、文件名、后缀名模块
+	huilian_selenium.py:
+		chromeOptions（）设置 chrome_options属性和下载网页版的PDF和打印网页版的PDF
+		class Tools() 基于数据库的数据进行组合或拆分（省份、日期、文件路径、文件名、后缀名）
+		class Huilian 基于原生的selenium框架做二次开发
+	inter_112.py: 主程序（填写签证的需要的信息）
+	pipelines.py: 数据库操作模块
+	pub.py: 储存省市模块和正则表达式模块
+
+
+	个人信息英文表.
+	TB_INFO = "dc_business_australia_info_eng"
+
