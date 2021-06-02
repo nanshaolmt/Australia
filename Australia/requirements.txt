@@ -1,6 +1,6 @@
 schedule==0.6.0
 tasks==2.5.0
-urllib3==1.23
+urllib3==1.26.5
 selenium==2.48.0
 PyMySQL==0.9.2
 lxml==4.2.5
