@@ -3,7 +3,7 @@ tasks==2.5.0
 urllib3==1.23
 selenium==2.48.0
 PyMySQL==0.9.2
-lxml==4.2.5
+lxml==4.9.1
 requests==2.19.1
 reportlab==3.5.18
 DBUtils==1.3
